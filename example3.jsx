@@ -28,20 +28,6 @@ export default class Demo extends React.PureComponent {
           min={0}
         />
 
-        <BarSeriesState
-          name="BarSeries"
-          valueField='contributions'
-          argumentField='login'
-          axisName='commits'
-        />
-
-        <LineSeriesState
-          name="LineSeries"
-          valueField='contributions'
-          argumentField='login'
-          axisName='commits'
-        />
-
         <ArgumentAxis />
         <ValueAxis name="commits"/>
 
