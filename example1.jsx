@@ -26,8 +26,6 @@ export default class Demo extends React.PureComponent {
         data={chartData}
         width={width}
         height={height}
-        axesSettings={axesSettings}
-        seriesSettings={seriesSettings}
       >
 
         <ArgumentAxis />
